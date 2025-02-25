@@ -1,4 +1,10 @@
-# qutebrowser Solarized
+# Solarized for qutebrowser
+
+> Precision colors for machines and people
+
+This is a recolor for [qutebrowser](https://www.qutebrowser.org/) based on [Ethan Schoonover's Solarized color scheme](https://ethanschoonover.com/solarized/).
+
+If anything is not working for you, please let me know [here](https://github.com/harmtemolder/qutebrowser-solarized/issues).
 
 ## Install
 
@@ -15,7 +21,7 @@ or
 echo 'config.source("solarized-dark.py")' >> ~/.config/qutebrowser/config.py
 ```
 
-3. If you have an open instance of qutebrowser, run `:config-source` to reload the config
+3. (If you have an open instance of qutebrowser, run `:config-source` to reload the config)
 
 ## Credits
 

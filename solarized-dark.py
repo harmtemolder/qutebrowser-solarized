@@ -176,6 +176,10 @@ c.colors.hints.fg = solarized["bg1"]
 ## Type: QtColor
 c.colors.hints.match.fg = solarized["bg2"]
 
+## CSS border value for hints.
+## Type: String
+c.hints.border = "1px solid " + solarized["accent"]
+
 ## Background color of the keyhint widget.
 ## Type: QssColor
 # c.colors.keyhint.bg = 'rgba(0, 0, 0, 80%)'
@@ -190,7 +194,7 @@ c.colors.keyhint.suffix.fg = solarized["yellow"]
 
 ## Background color of an error message.
 ## Type: QssColor
-c.colors.messages.error.bg = solarized["red"]
+c.colors.messages.error.bg = solarized["bg2"]
 
 ## Border color of an error message.
 ## Type: QssColor
@@ -198,15 +202,15 @@ c.colors.messages.error.border = solarized["red"]
 
 ## Foreground color of an error message.
 ## Type: QssColor
-c.colors.messages.error.fg = solarized["fg1"]
+c.colors.messages.error.fg = solarized["red"]
 
 ## Background color of an info message.
 ## Type: QssColor
-c.colors.messages.info.bg = solarized["bg1"]
+c.colors.messages.info.bg = solarized["bg2"]
 
 ## Border color of an info message.
 ## Type: QssColor
-c.colors.messages.info.border = solarized["bg1"]
+c.colors.messages.info.border = solarized["fg1"]
 
 ## Foreground color of an info message.
 ## Type: QssColor
@@ -214,7 +218,7 @@ c.colors.messages.info.fg = solarized["fg1"]
 
 ## Background color of a warning message.
 ## Type: QssColor
-c.colors.messages.warning.bg = solarized["orange"]
+c.colors.messages.warning.bg = solarized["bg2"]
 
 ## Border color of a warning message.
 ## Type: QssColor
@@ -222,11 +226,11 @@ c.colors.messages.warning.border = solarized["orange"]
 
 ## Foreground color of a warning message.
 ## Type: QssColor
-c.colors.messages.warning.fg = solarized["fg1"]
+c.colors.messages.warning.fg = solarized["orange"]
 
 ## Background color for prompts.
 ## Type: QssColor
-c.colors.prompts.bg = solarized["bg1"]
+c.colors.prompts.bg = solarized["bg2"]
 
 ## Border used around UI elements in prompts.
 ## Type: String
@@ -238,11 +242,11 @@ c.colors.prompts.fg = solarized["fg1"]
 
 ## Background color for the selected item in filename prompts.
 ## Type: QssColor
-c.colors.prompts.selected.bg = solarized["fg2"]
+c.colors.prompts.selected.bg = solarized["accent"]
 
 ## Foreground color for the selected item in filename prompts.
 ## Type: QssColor
-c.colors.prompts.selected.fg = solarized["bg2"]
+c.colors.prompts.selected.fg = solarized["bg1"]
 
 ## Background color of the statusbar in caret mode.
 ## Type: QssColor
@@ -282,11 +286,11 @@ c.colors.statusbar.insert.bg = solarized["green"]
 
 ## Foreground color of the statusbar in insert mode.
 ## Type: QssColor
-c.colors.statusbar.insert.fg = solarized["bg1"]
+c.colors.statusbar.insert.fg = solarized["bg2"]
 
 ## Background color of the statusbar.
 ## Type: QssColor
-c.colors.statusbar.normal.bg = solarized["bg1"]
+c.colors.statusbar.normal.bg = solarized["bg2"]
 
 ## Foreground color of the statusbar.
 ## Type: QssColor
@@ -294,7 +298,7 @@ c.colors.statusbar.normal.fg = solarized["fg1"]
 
 ## Background color of the statusbar in passthrough mode.
 ## Type: QssColor
-c.colors.statusbar.passthrough.bg = solarized["cyan"]
+c.colors.statusbar.passthrough.bg = solarized["magenta"]
 
 ## Foreground color of the statusbar in passthrough mode.
 ## Type: QssColor
@@ -302,7 +306,7 @@ c.colors.statusbar.passthrough.fg = solarized["bg1"]
 
 ## Background color of the statusbar in private browsing mode.
 ## Type: QssColor
-c.colors.statusbar.private.bg = solarized["bg1"]
+c.colors.statusbar.private.bg = solarized["bg2"]
 
 ## Foreground color of the statusbar in private browsing mode.
 ## Type: QssColor
@@ -318,7 +322,7 @@ c.colors.statusbar.url.error.fg = solarized["red"]
 
 ## Default foreground color of the URL in the statusbar.
 ## Type: QssColor
-c.colors.statusbar.url.fg = solarized["fg1"]
+c.colors.statusbar.url.fg = solarized["bg1"]
 
 ## Foreground color of the URL in the statusbar for hovered links.
 ## Type: QssColor
