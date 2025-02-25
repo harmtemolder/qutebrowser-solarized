@@ -340,11 +340,11 @@ c.colors.statusbar.url.warn.fg = solarized["orange"]
 
 ## Background color of the tab bar.
 ## Type: QssColor
-c.colors.tabs.bar.bg = solarized["bg1"]
+c.colors.tabs.bar.bg = solarized["bg2"]
 
 ## Background color of unselected even tabs.
 ## Type: QtColor
-c.colors.tabs.even.bg = solarized["bg1"]
+c.colors.tabs.even.bg = solarized["bg2"]
 
 ## Foreground color of unselected even tabs.
 ## Type: QtColor
@@ -373,7 +373,7 @@ c.colors.tabs.indicator.system = "none"
 
 ## Background color of unselected odd tabs.
 ## Type: QtColor
-c.colors.tabs.odd.bg = solarized["bg1"]
+c.colors.tabs.odd.bg = solarized["bg2"]
 
 ## Foreground color of unselected odd tabs.
 ## Type: QtColor
@@ -381,7 +381,7 @@ c.colors.tabs.odd.fg = solarized["fg1"]
 
 ## Background color of pinned unselected even tabs.
 ## Type: QtColor
-c.colors.tabs.pinned.even.bg = solarized["bg1"]
+c.colors.tabs.pinned.even.bg = solarized["bg2"]
 
 ## Foreground color of pinned unselected even tabs.
 ## Type: QtColor
@@ -389,7 +389,7 @@ c.colors.tabs.pinned.even.fg = solarized["fg1"]
 
 ## Background color of pinned unselected odd tabs.
 ## Type: QtColor
-c.colors.tabs.pinned.odd.bg = solarized["bg1"]
+c.colors.tabs.pinned.odd.bg = solarized["bg2"]
 
 ## Foreground color of pinned unselected odd tabs.
 ## Type: QtColor
@@ -413,19 +413,19 @@ c.colors.tabs.pinned.selected.odd.fg = solarized["fg1"]
 
 ## Background color of selected even tabs.
 ## Type: QtColor
-c.colors.tabs.selected.even.bg = solarized["accent"]
+c.colors.tabs.selected.even.bg = solarized["bg1"]
 
 ## Foreground color of selected even tabs.
 ## Type: QtColor
-c.colors.tabs.selected.even.fg = solarized["bg1"]
+c.colors.tabs.selected.even.fg = solarized["accent"]
 
 ## Background color of selected odd tabs.
 ## Type: QtColor
-c.colors.tabs.selected.odd.bg = solarized["accent"]
+c.colors.tabs.selected.odd.bg = solarized["bg1"]
 
 ## Foreground color of selected odd tabs.
 ## Type: QtColor
-c.colors.tabs.selected.odd.fg = solarized["bg1"]
+c.colors.tabs.selected.odd.fg = solarized["accent"]
 
 ## Background color of tooltips. If set to null, the Qt default is used.
 ## Type: QssColor
@@ -438,7 +438,7 @@ c.colors.tooltip.fg = solarized["fg1"]
 ## Background color for webpages if unset (or empty to use the theme's
 ## color).
 ## Type: QtColor
-c.colors.webpage.bg = ""
+c.colors.webpage.bg = solarized["bg1"]
 
 ## Which algorithm to use for modifying how colors are rendered with dark
 ## mode. The `lightness-cielab` value was added with QtWebEngine 5.14 and
