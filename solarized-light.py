@@ -81,7 +81,7 @@ c.colors.completion.odd.bg = solarized["bg1"]
 
 ## Color of the scrollbar in the completion view.
 ## Type: QssColor
-c.colors.completion.scrollbar.bg = solarized["bg1"]
+c.colors.completion.scrollbar.bg = solarized["bg2"]
 
 ## Color of the scrollbar handle in the completion view.
 ## Type: QssColor
@@ -230,11 +230,11 @@ c.colors.messages.warning.fg = solarized["orange"]
 
 ## Background color for prompts.
 ## Type: QssColor
-c.colors.prompts.bg = solarized["bg2"]
+c.colors.prompts.bg = solarized["bg1"]
 
 ## Border used around UI elements in prompts.
 ## Type: String
-c.colors.prompts.border = "1px solid " + solarized["fg1"]
+c.colors.prompts.border = "1px solid " + solarized["bg2"]
 
 ## Foreground color for prompts.
 ## Type: QssColor
@@ -250,7 +250,7 @@ c.colors.prompts.selected.fg = solarized["bg1"]
 
 ## Background color of the statusbar in caret mode.
 ## Type: QssColor
-c.colors.statusbar.caret.bg = solarized["yellow"]
+c.colors.statusbar.caret.bg = solarized["magenta"]
 
 ## Foreground color of the statusbar in caret mode.
 ## Type: QssColor
@@ -258,7 +258,7 @@ c.colors.statusbar.caret.fg = solarized["bg1"]
 
 ## Background color of the statusbar in caret mode with a selection.
 ## Type: QssColor
-c.colors.statusbar.caret.selection.bg = solarized["magenta"]
+c.colors.statusbar.caret.selection.bg = solarized["violet"]
 
 ## Foreground color of the statusbar in caret mode with a selection.
 ## Type: QssColor
@@ -266,19 +266,19 @@ c.colors.statusbar.caret.selection.fg = solarized["bg1"]
 
 ## Background color of the statusbar in command mode.
 ## Type: QssColor
-c.colors.statusbar.command.bg = solarized["bg2"]
+c.colors.statusbar.command.bg = solarized["fg1"]
 
 ## Foreground color of the statusbar in command mode.
 ## Type: QssColor
-c.colors.statusbar.command.fg = solarized["fg1"]
+c.colors.statusbar.command.fg = solarized["bg1"]
 
 ## Background color of the statusbar in private browsing + command mode.
 ## Type: QssColor
-c.colors.statusbar.command.private.bg = solarized["bg2"]
+c.colors.statusbar.command.private.bg = solarized["fg1"]
 
 ## Foreground color of the statusbar in private browsing + command mode.
 ## Type: QssColor
-c.colors.statusbar.command.private.fg = solarized["fg1"]
+c.colors.statusbar.command.private.fg = solarized["bg1"]
 
 ## Background color of the statusbar in insert mode.
 ## Type: QssColor
@@ -298,7 +298,7 @@ c.colors.statusbar.normal.fg = solarized["fg1"]
 
 ## Background color of the statusbar in passthrough mode.
 ## Type: QssColor
-c.colors.statusbar.passthrough.bg = solarized["magenta"]
+c.colors.statusbar.passthrough.bg = solarized["cyan"]
 
 ## Foreground color of the statusbar in passthrough mode.
 ## Type: QssColor
@@ -495,14 +495,14 @@ c.colors.webpage.darkmode.policy.page = "smart"
 ## behavior is the opposite of
 ## `colors.webpage.darkmode.threshold.foreground`!
 ## Type: Int
-c.colors.webpage.darkmode.threshold.background = 0
+c.colors.webpage.darkmode.threshold.background = 128
 
 ## Threshold for inverting text with dark mode. Text colors with
 ## brightness below this threshold will be inverted, and above it will be
 ## left as in the original, non-dark-mode page. Set to 256 to always
 ## invert text color or to 0 to never invert text color.
 ## Type: Int
-c.colors.webpage.darkmode.threshold.foreground = 256
+c.colors.webpage.darkmode.threshold.foreground = 128
 
 ## Value to use for `prefers-color-scheme:` for websites. The "light"
 ## value is only available with QtWebEngine 5.15.2+. On older versions,
@@ -514,4 +514,4 @@ c.colors.webpage.darkmode.threshold.foreground = 256
 ##   - auto: Use the system-wide color scheme setting.
 ##   - light: Force a light theme.
 ##   - dark: Force a dark theme.
-c.colors.webpage.preferred_color_scheme = "auto"
+c.colors.webpage.preferred_color_scheme = "light"
